@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<center>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,29 +12,49 @@
     <body>
         <header>
             <h1>Welcome to My world</h1>
+            <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet">
             <p>This is Poojit, a Startup Enthusiast</p>
+            <style>
+                body
+                {
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    background-color: rgb(243, 244, 246);
+                    color: brown;
+                    
+                }
+
+                header{
+                    background: linear-gradient(to right, violet, beige);
+                }
+
+                header,footer{
+                    color:rgb(45, 137, 218);
+                    text-align: center;
+                    padding: 20px 0;
+                }
+            </style> <!-- Internal css example -->
         </header>
         <hr>
 
-        <section>
-            <h2>About Me</h2>
+        <section style="text-align: left;">
+            <h2 style="color: blueviolet; font-size: 26px;">About Me</h2>
             <p>I am Poojit, It is my Info Profile</p>
             <img src="Poojit.webp.jpg" alt="Poojit pic" width="224">
 
-        </section>
+        </section> <!-- Inline css example -->
         <hr>
 
 
-        <section>
+        <section style="text-align: left;">
             <h2>Contact Information</h2>
             <p>Let's Connect</p>
             <p><a href="mailto:officialpoozit17@gmail.com">Send me an email</a>  |  <a href="www.linkedin.com/in/poojit-nagaloti-a05">Linkedin</a></p>
         </section>
         <hr>
 
-        <section>
+        <section style="text-align: left;">
             <h2>My skills</h2>
-            <table align="center">
+            <table>
                 <tr>
                     <td>
                         <ul style="text-align:left;">
@@ -59,7 +79,7 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email"><br><br>
 
-                <label for="message">Message:</label>
+                <label for="message">message:</label>
                 <input type="message" id="message" name="message"><br><br>
 
                 <button  type="submit">Send my message</button>
@@ -68,5 +88,4 @@
         <hr>
     </body>
     </html>
-</center>
 </html>
